@@ -1,0 +1,19 @@
+.meaning {
+    width: 98%;
+    margin: 10px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.meaning__header {
+    display: flex;
+}
+
+/*
+.meaning-section__seperator {
+    width: 60%;
+    height: 1px;
+    margin: 10px auto;
+    background-color: var(--font-color);
+    opacity: 0.4;
+}*/

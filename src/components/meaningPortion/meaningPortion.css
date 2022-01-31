@@ -1,0 +1,56 @@
+.meaning-portion {
+    margin: 10px 0;
+    display: flex;
+}
+
+.meaning-portion__counter,
+.meaning-portion__primary,
+.meaning-portion__example,
+.meaning-portion__similar {
+    font-family: var(--body-font-family);
+    color: var(--font-color);
+}
+
+.meaning-portion__counter,
+.meaning-portion__primary {
+    font-size: 1.25rem;
+}
+
+.meaning-portion__counter p {
+    padding: 0 20px;
+}
+
+.meaning-portion__container p {
+    line-height: 28px;
+}
+
+.meaning-portion__example,
+.meaning-portion__similar {
+    font-size: 1rem;
+}
+
+.meaning-portion__example {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.meaning-portion__similar span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .meaning-portion__counter,
+    .meaning-portion__primary {
+        font-size: 1rem;
+    }
+
+    .meaning-portion__example,
+    .meaning-portion__similar {
+        font-size: 0.9rem;
+    }
+
+    .meaning-portion__similar span {
+        font-size: 1rem;
+    }
+}

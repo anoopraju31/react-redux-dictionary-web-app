@@ -1,0 +1,15 @@
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+    .home-page {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,46 @@
+.meaning-header {
+    width: 60vw;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.meaning-header h1 {
+    margin-right: 20px;
+    font-family: var(--header-font-family);
+    font-size: 4rem;
+    line-height: 80px;
+    word-spacing: 0;
+    font-weight: 500;
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .meaning-header {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .meaning-header {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .meaning-header {
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .meaning-header h1 {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .meaning-header {
+        width: 95vw;
+    }
+}
